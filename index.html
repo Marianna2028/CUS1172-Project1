@@ -62,16 +62,65 @@
         
 
  <h2 id="basic-information"><span style="text-decoration: underline; background-color: lightyellow;">Basic Information</span></h2>
-    <ul>
+   <style>
+.dropdown {
+  Position: relative;
+}
 
-        <h3>
-            Name: Marianna Regina <br> 
-            Hometown: Plainedge, Long Island  <br>
-            University: St. John's University  <br>
-            Year: Sophomore  <br>
-            Major: Computer Science  <br>
-            GPA: 3.9  <br>
-        </h3>
+.dropbtn {
+  background-color:purple;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: purple;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color:purple;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+  background-color:purple;
+}
+</style>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown Menu</button>
+  <div class="dropdown-content">
+  <a href="#">Name: Marianna Regina</a>
+    <a href="#">Hometown: Plainedge, Long Island</a>
+    <a href="#">University: St. John’s University</a>
+<a href="#">Year: Sophomore</a>
+<a href="#">Major: Computer Science </a>
+<a href="#">GPA: 3.9</a>
+
+  </div>
+</div>
+
 
         <h2 id="education-summary"><span style="text-decoration: underline; background-color: lightyellow;">Education Summary</span></h2>
               <table border="1" cellspacing="0" cellpadding="5" style="margin: 0 auto;">
