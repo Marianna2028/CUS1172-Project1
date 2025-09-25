@@ -1,1 +1,306 @@
+<html>
+    <head>
+        <title>Marianna Regina Profile</title>
+        <style>
+            body {
+                font-family: Georgia, serif;
+                background-color: lavender;
+                text-align: center; 
+            }
+            h1 {
+                color: purple;
+                text-align: center;
+                border-bottom: 2px dotted purple; 
+                padding-bottom: 10px; 
+            }
+            p {
+                text-align: center;
+               
+            }
+            
+            ul#nav {
+                list-style-type: none;
+                margin: 0 auto;
+                padding: 0;
+                overflow: hidden;
+                width: fit-content;
+                border-bottom: 2px dotted purple;
+                width: 100%; 
+               text-align: center;
+            }
+
+            ul#nav li {
+                display: inline-block;
+                 margin: 0;
+                padding: 0;
+            }
+
+            ul#nav li a {
+        display: block;
+                color: black;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+                background-color: purple;
+                font-weight: bold;
+            }   
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to Marianna Regina's Profile</h1>
+        
+          <ul id="nav">
+        <li><a href="#basic-information">Basic Information</a></li>
+        <li><a href="#education-summary">Education Summary</a></li>
+        <li><a href="#work-experience">Work Experience</a></li>
+        <li><a href="#programming-skills">Programming Skills</a></li>
+        <li><a href="#my-interests">My Interests</a></li>
+    </ul>
+
+ <img src="myavatar.png" width="25%" height="50%"> 
+
+        
+
+ <h2 id="basic-information"><span style="text-decoration: underline; background-color: lightyellow;">Basic Information</span></h2>
+        <p style="font-size: 14px; text-align: center; font-family: Georgia, serif;">
+            However over the dropdown to see some information about me
+        </p>
+   <style>
+.dropdown {
+  Position: relative;
+    display: inline-block;
+    font-family: Georgia, serif;
+}
+
+.dropbtn {
+  background-color: mediumpurple;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: mediumpurple;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: mediumpurple;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+  background-color: mediumpurple;
+}
+</style>
+
+<div class="dropdown">
+  <button class="dropbtn">Name: Marianna Regina</button>
+  <div class="dropdown-content">
+  <a href="#">Name: Marianna Regina</a>
+    <a href="#">Hometown: Plainedge, Long Island</a>
+    <a href="#">University: St. John’s University</a>
+<a href="#">Year: Sophomore</a>
+<a href="#">Major: Computer Science </a>
+<a href="#">GPA: 3.9</a>
+
+  </div>
+</div>
+
+
+        <h2 id="education-summary"><span style="text-decoration: underline; background-color: lightyellow;">Education Summary</span></h2>
+              <table border="1" cellspacing="0" cellpadding="5" style="margin: 0 auto;">
+
+            <tr> 
+                <th>School</th>
+                <th>Location</th>
+                <th>GPA</th>
+            </tr>
+            <tr> 
+                <td>St. Anthony's High School</td>
+                <td>Melville, New York</td>
+                <td>4.3</td>
+            </tr>
+            <tr> 
+                <td>St. John's University </td>
+                <td>Queens, New Yorkr</td>    
+                <td>3.91</td>
+              </tr>
+        </table>
+
+        <h2><span style="text-decoration: underline; background-color: lightyellow;">Campus Involvements</span></h2>
+
+    
+         <table border="1" cellspacing="0" cellpadding="5" style="margin: 0 auto;">
+
+            <tr> 
+                <th>Organization</th>
+                <th>Position</th>
+                <th>Dates</th> 
+            </tr>
+            <tr> 
+                <td>Honors Program</td>
+                <td>Student</td>
+                <td>Fall 2024 - Present</td>
+            </tr>
+            <tr> 
+                <td>Delta Phi Epsilson Sorority</td>
+                <td>Philanthropy Coordinator and Senior Programming Coordinator</td>    
+                <td>April 2025 - Present</td>    
+            </tr>
+         
+        </table>
+
+
+      <h2 id="work-experience"><span style="text-decoration: underline; background-color: lightyellow;">Work Experience</span></h2>
+
+    <table border="1" cellspacing="0" cellpadding="5" style="margin: 0 auto;">
+
+            <tr> 
+                <th>Job</th>
+                <th>Position</th>
+                <th>Dates</th> 
+            </tr>
+            <tr> 
+                <td>Once Upon a Child</td>
+                <td>Employee</td>
+                <td>Jan 2023 - Present</td>
+            </tr>
+            <tr> 
+                <td>SJU Student Ambassadors</td>
+                <td>Tour Guide</td>    
+                <td>Jan 2025 - Present</td>    
+            </tr>
+            <tr> 
+                <td>Babysitter</td>
+                <td>Babysitter</td>
+                <td>April 2019 - Present</td>
+            </tr>
+        </table>
+
+         <h2 id="programming-skills"><span style="text-decoration: underline; background-color: lightyellow;">Programming Skills</span></h2>
+
+        <h4>
+            In my freshman year I have taken and passed three Computer Science classes. 
+            This current fall semester I am taking two Computer Science classes. (shown below)
+        </h4>
+        <table border="1" cellspacing="0" cellpadding="5" style="margin: 0 auto;"> 
+            <tr>
+                <th>Course</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>CUS1115</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>CUS1116</td>
+                <td>A</td>
+            </tr>
+            <tr> 
+                <td>NET1011</td>
+                <td>A</td>
+            </tr> 
+            <tr> 
+                <td>CUS1126</td>   
+                <td>Course in Progress</td>    
+            </tr> 
+            <tr> 
+                <td>CUS1172</td>   
+                <td>Course in Progress</td> 
+            </tr>           
+        </table>
+
+
+
+<h4 id="languages-learned"><span style="text-decoration: underline; background-color: lightyellow;">Languages Learned</span></h4>
+
+<ul>
+   <li>Java</li>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
+        
+        
+
+        <h2 id="my-interests"><span style="text-decoration: underline; background-color: lightyellow;">My Interests</span></h2>
+        <ul style="list-style-position: inside; padding-left: 0; text-align: center;">
+        
+        <ul>
+            <li>Arts and Crafts</li>
+            <li>Listening to Music</li>
+            <li>Writing</li>
+            <li>Baking</li>
+            <li>Learning a new language (I am currently studying Italian!)</li>
+        </ul>
+
+       <h2 id="favorite-songs"><span style="text-decoration: underline; background-color: lightyellow;">Favorite Songs</span></h2>
+        
+<img src="myimage2.jpeg" width="25%" height="50%">
+
+
+        <h4>"98 Braves" - Morgan Wallen</h4>
+        <ul> 
+            <li><a href="https://open.spotify.com/track/1lBBFLNJuTGw1NTk3ylpVW"></iframe>"Click here to listen</a></li>
+        </ul>
+
+        <h4>"Free Now" - Gracie Abrams</h4>
+        <ul> 
+            <li><a href="https://open.spotify.com/track/1aThn8Pk8zRzGGPClZe9Oq" target="_blank">Click here to listen</a></li>
+        </ul>
+        
+        <h4>"Long Live" - Taylor Swift</h4>
+        <ul> 
+            <li><a href="https://open.spotify.com/track/6XDBA3QWX51lDJ0oZbaJJN" target="_blank">Click here to listen</a></li>
+        </ul>
+
+  <h2 id="favorite-movie"><span style="text-decoration: underline; background-color: lightyellow;">Favorite Movie</span></h2>
+        <h4>The Greatest Showman</h4>
+      <ul> 
+            <li><a href="https://www.youtube.com/watch?v=Scq65uGROKk&list=RDScq65uGROKk&start_radio=1">Click here to watch my favorite scene</a></li>
+        </ul>
+
+
+        
+        <h2 id="favorite-show"><span style="text-decoration: underline; background-color: lightyellow;">Favorite Show</span></h2>
+     
+        <ul> 
+            <li><a href="https://www.youtube.com/watch?v=MndMDj8uKUY">Click here to watch one of the best scenes (in my opinion)</a></li>
+        </ul>
+
+       <h2 id="favorite-webpages"><span style="text-decoration: underline; background-color: lightyellow;">Favorite Webpages</span></h2>
+
+        <h4>Apple Music</h4>
+        <h5>
+            As previously mentioned, I love to listen to music. 
+            Whether I am feeling happy, sad, lonely, stressed, angry, or even just want some background noise, 
+            there is always a song, album, or playlist perfect for any occasion. 
+        </h5>
+        <ul> 
+            <li><a href="https://music.apple.com/us/new">Click here to listen</a></li>
+        </ul>
+    </body>
+</html>
+
+    
+
 
