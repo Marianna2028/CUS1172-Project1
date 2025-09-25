@@ -206,7 +206,8 @@
             In my freshman year I have taken and passed three Computer Science classes. 
             This current fall semester I am taking two Computer Science classes. (shown below)
         </h4>
-        <table border="1" cellspacing="0" cellpadding="5" style="margin: 0 auto;"> 
+      <table class="table table-hover table-bordered text-center" style="width: 50%; margin: 0 auto;">
+    <thead class="table-dark">
             <tr>
                 <th>Course</th>
                 <th>Grade</th>
@@ -302,10 +303,26 @@
             <li><a href="https://music.apple.com/us/new">Click here to listen</a></li>
         </ul>
 
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Your Email">
+    <div class="input-group-append">
+    </div>
+  </div>
+</form>
+
 <div class="form-group">
   <label for="comment">Send me a message!</label>
   <textarea class="form-control" rows="5" id="comment"></textarea>
 </div>
+
+
+<div class="media border p-3">
+  <img src="myavatar.png" alt="Marianna Regina" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+  <div class="media-body">
+    <h4>Marianna Regina <small><i>Last updated on September 24, 2024</i></small></h4>
+     </div>
+</div>
+        
 
 
     </body>
