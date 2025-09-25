@@ -147,7 +147,8 @@
               </tr>
         </table>
 
-                <img src =
+                <img src = hspic.jpeg" class = "rounded">
+
 
         <h2><span style="text-decoration: underline; background-color: lightyellow;">Campus Involvements</span></h2>
 
@@ -300,11 +301,16 @@
         <ul> 
             <li><a href="https://music.apple.com/us/new">Click here to listen</a></li>
         </ul>
+
+<div class="form-group">
+  <label for="comment">Send me a message!</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+
+
     </body>
 </html>
 
      
-
-    
 
 
